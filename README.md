@@ -1,18 +1,6 @@
-## Getting Started
+## Телефонная книга
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Особенности программы:
+* для хранения контактов используется HashMap, где имена являются ключами (тип String), а номера телефонов - значениями, хранящимися в ArrayList<Integer>,
+* в случае добавления контакта с именем, уже имеющимся в справочнике, программа добавляет новый номер телефона к уже имеющимся для соответствующего контакта,
+* вывод контактов отсортирован по убыванию количества телефонов.
